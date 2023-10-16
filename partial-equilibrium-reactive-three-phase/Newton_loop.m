@@ -1793,7 +1793,7 @@ for ki= 1 : nw
          dmuw=zeros(size(dmuw));
          
  
-        [h_W(ki,:),~,dh_W(ki,:),~]=heat_h(W(ki),drhow);
+        [h_W(ki,:),~,dh_W(ki,:),~]=heat_h(Wrep,drhow);
        
         %for co2 species
         WG=-(W(ki).frac(4).*drhow(2).*W(ki).WI.*krw(wc,2)./W(ki).mu(2)...
