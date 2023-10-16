@@ -181,6 +181,7 @@ while (max(abs(dp))>dplim) &&knr<=KNM && condL< conlim &&  realcon
         W(k).pressure=W(k).pressure+dx(4*ncc+k); % update the bottom hole pressure of each well.
     end
     dp=max(abs(dx(1:(4*ncc))));% update the maximum change of liquid pressure, gas pressure, porosity and temperature
+     %dp=max(abs(dx));
     realcon=isreal (state.pressure)&&min(state.pressure(:))>0&&min(state.Tk(:))>0&&(~isnan(sum(state.pressure(:))))&&(max(abs(state.pressure(:)))<1e8);% check if there is unreasonable value.
     if realcon&&~nanb
     % perform chemical reaction calculation with the chemical reaction module 'kinetic_reaction_hc'
@@ -201,6 +202,7 @@ while (max(abs(dp))>dplim) &&knr<=KNM && condL< conlim &&  realcon
     if dp0>dp && knr>5
         dplim=state.dplim*state.dplim_relax;% loose the convergency control after 5 iterations, provided that dp<dp0
     end
+
 end
 
 
@@ -1775,16 +1777,24 @@ for ki= 1 : nw
 
     else
 
-
+       wc=W(ki).cells;
         W(ki).frac=[0 0 0 1];
         W(ki).dfrac=[0 0 0 0];
         W(ki).rhoref=state.rhoref;
-        [W(ki).rho,W(ki).mu]=rhomu_p_frac_kinetic_h(W(ki));
-        W(ki).dsp=0;
-        W(ki).dcp=0;
-        [drhow,dmuw]=D_RHOMU_kinetic_h(W(ki));
+        Wrep=W(ki);
+        Wrep.pressure=[max(state.pressure0(wc,1)),max(state.pressure0(wc,1))];
+        [W(ki).rho,W(ki).mu]=rhomu_p_frac_kinetic_h(Wrep);
+        Wrep.rho=W(ki).rho;
+         Wrep.mu=W(ki).mu;
+        Wrep.dsp=0;
+        Wrep.dcp=0;
+        [drhow,dmuw]=D_RHOMU_kinetic_h(Wrep);
+         drhow=zeros(size(drhow));
+         dmuw=zeros(size(dmuw));
+         
+ 
         [h_W(ki,:),~,dh_W(ki,:),~]=heat_h(W(ki),drhow);
-        wc=W(ki).cells;
+       
         %for co2 species
         WG=-(W(ki).frac(4).*drhow(2).*W(ki).WI.*krw(wc,2)./W(ki).mu(2)...
             +W(ki).frac(4).*W(ki).rho(2).*W(ki).WI.*krw(wc,2)./W(ki).mu(2).^2.*(-dmuw(2)))...
