@@ -25,13 +25,15 @@ Optional
 
 
 **Test 2 : **
+![text alternative](img_url)
+![text alternative]('./benchmarks and examples/benchmark_against_Geoxim/BENCH_geoxim.JPG')
 
 **Example simulations**
 
 We offer four example simulations to help users to learn to use MRST-HYD. These four examples are listed in the folder called 'benchmarks and examples'. For instance, one goes to 'MRST-HYD/benchmarks and examples
 /benchmark_against_Geoxim/' and run the file 'benchmark_against_geoxim.m'; the user can simulate their own case by modifying the parameters in the 'benchmark_against_geoxim.m'. For more details go to paper Wang et al [2023]
 
-![plot](./benchmarks and examples/benchmark_against_Geoxim/BENCH_geoxim.jpg?raw=true)
+![plot]('https://github.com/wangyufei1989/MRST-HYD/params/BENCH_geoxim.JPG')
 
 **Platform**
 
