@@ -11,7 +11,13 @@ MRST-HYD is handy, and no explicit operation is needed to install MRST-HYD. One 
 **Quick start**
 
 * Go to the folder 'MRST-HYD/benchmarks and examples/benchmark_against_Geoxim/'
-* Run the Matlab script 'benchmark_against_geoxim.m
+* Open the Matlab script 'benchmark_against_geoxim.m'
+* Clic on run
+
+Or in command window
+
+* cd 'MRST-HYD/benchmarks and examples/benchmark_against_Geoxim/'
+* benchmark_against_geoxim
 
 Optional 
 *  Modify the parameters in the 'benchmark_against_geoxim.m'
