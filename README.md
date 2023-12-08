@@ -2,30 +2,23 @@
 
 This repository contains the file for library: MRST-HYD, which is a toolbox for simulating offshore CO2 storage with hydrate formation.
 
+![two_dimension_app](https://github.com/wangyufei1989/MRST-HYD/assets/97456379/a1e1d7bb-699f-482d-8e5e-e61a502cde4d)
 
 **Installation**
 
-MRST-HYD is handy, and no explicit operation is needed to install MRST-HYD. One only need to go into folder 'MRST-HYD/benchmarks and examples
-/' and find the example file and run it.
+MRST-HYD is handy, and no explicit operation is needed to install MRST-HYD. One only need to go into folder 'MRST-HYD/examples
+/' and choose one example file and run it. We offer four example files for the purpose of introduction.  Users can learn MRST-HYD through these four given example files. Details about each exapmple are described inside the script. 
+
 
 **Quick start**
 
 * Launch Matlab Software
-* Go to the folder 'MRST-HYD/benchmarks and examples/benchmark_against_Geoxim/'
-* Open the Matlab script 'benchmark_against_geoxim.m'
+* Go to the folder 'MRST-HYD/examples/'
+* Go to the folder 'Test_1', for instance, and open the Matlab script 'Test_1.m'
 * Click on 'run' button
 
-Optional 
-*  Modify the parameters in the 'benchmark_against_geoxim.m'
-
-*  For more details go to paper Wang et al [2023]
-
-**Test 1 : **
 
 
-
-**Test 2 : **
-![two_dimension_app](https://github.com/wangyufei1989/MRST-HYD/assets/97456379/a1e1d7bb-699f-482d-8e5e-e61a502cde4d)
 
 
 **Example simulations**
