@@ -25,8 +25,8 @@ Optional
 
 
 **Test 2 : **
-![text alternative](img_url)
-![text alternative]('./benchmarks and examples/benchmark_against_Geoxim/BENCH_geoxim.JPG')
+![two_dimension_app](https://github.com/wangyufei1989/MRST-HYD/assets/97456379/a1e1d7bb-699f-482d-8e5e-e61a502cde4d)
+
 
 **Example simulations**
 
