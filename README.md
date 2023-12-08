@@ -1,6 +1,6 @@
 # MRST-HYD
 
-This repository contains the file for library: MRST-HYD, which is a toolbox for simulating offshore CO2 storage with hydrate formation.
+This repository contains all the files for library: MRST-HYD, which is a toolbox for simulating offshore CO2 storage with hydrate formation. We offer four example case simulations for the purpose of introduction.  Users can learn MRST-HYD through these four given examples. Details about each exapmple are described inside the script.
 
 
 ![two_dimension_app](https://github.com/wangyufei1989/MRST-HYD/assets/97456379/17e76394-a813-421f-846b-ae150e6b0f7f)
@@ -8,27 +8,19 @@ This repository contains the file for library: MRST-HYD, which is a toolbox for 
 
 **Installation**
 
-MRST-HYD is handy, and no explicit operation is needed to install MRST-HYD. One only need to go into folder 'MRST-HYD/examples
-/' and choose the example file and run it. We offer four example case simulations for the purpose of introduction.  Users can learn MRST-HYD through these four given example case simulations. Details about each exapmple are described inside the script. 
+MRST-HYD is handy, and no explicit operation is needed to install MRST-HYD. One only need to go into folder 'MRST-HYD/examples/', then go into one of the four subfolders each containing one example test, and choose the Matlab script inside this subfolder and run it.  
 
 
-**Quick start**
+**Quick start (only for those who have zero knowledge of Matlab)**
 
 * Launch Matlab Software
-* Go to the folder 'MRST-HYD/examples/'
-* Go to the folder 'Test_1', for instance, and open the Matlab script 'Test_1.m'
+* Go to the folder 'MRST-HYD/examples/one_dimensional_Joule_Thomson_with_HYD_formation' 
+* Open the Matlab script 'one_dimensional_Joule_Thomson_with_HYD_formation.m'
 * Click on 'run' button
-
-
-
-
 
 **Example simulations**
 
-We offer four example simulations to help users to learn to use MRST-HYD. These four examples are listed in the folder called 'benchmarks and examples'. For instance, one goes to 'MRST-HYD/benchmarks and examples
-/benchmark_against_Geoxim/' and run the file 'benchmark_against_geoxim.m'; the user can simulate their own case by modifying the parameters in the 'benchmark_against_geoxim.m'. For more details go to paper Wang et al [2023]
 
-![plot]('https://github.com/wangyufei1989/MRST-HYD/params/BENCH_geoxim.JPG')
 
 **Platform**
 
