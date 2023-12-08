@@ -18,33 +18,24 @@ MRST-HYD is handy, and no explicit operation is needed to install MRST-HYD. One 
 * Open the Matlab script 'one_dimensional_Joule_Thomson_with_HYD_formation.m'
 * Click on 'run' button
 
-**Platform**
-
-. 
-
 
 
 **Software requirement**
 
-Only Matlab is needed. The current module is developed based on Matlab 2019b, and it should be compatible for new versions of Matlab. 
+Only Matlab is needed (version 2019b or higher). 
 
 **Contributors**
 
-Yufei Wang, Dept. of Applied Mathematics. IFP Energies nouvelles, 1 et 4 Avenue du Bois-Préau, 92825 Rueil-Malmaison, France
+Yufei Wang, Eric Flauraud, Anthony Michel, Véronique Lachet, and  Clémentine Meiller. 
 
-Eric Flauraud, Dept. of Applied Mathematics. IFP Energies nouvelles, 1 et 4 Avenue du Bois-Préau, 92825 Rueil-Malmaison, France
-
-Anthony Michel, Dept. of Applied Mathematics. IFP Energies nouvelles, 1 et 4 Avenue du Bois-Préau, 92825 Rueil-Malmaison, France
-
-Véronique Lachet, Dept. of Thermodynamics and Molecular Simulation. IFP Energies nouvelles, 1 et 4 Avenue du Bois-Préau, 92825 Rueil-Malmaison, France
-
- Clémentine Meiller, Dept. of Computational Physics Porous Medium. IFP Energies nouvelles, 1 et 4 Avenue du Bois-Préau, 92825 Rueil-Malmaison, France
+Affiliation: IFP Energies nouvelles
  
 **Acknowledgement**
 
- We acknowledge the discussion with Dr. Maarten W. Saaltink (UPC- Barcelona Tech) during the early modeling stage.  We are  indebted to  Isabelle Faille for organizing the discussion of this work. The code is developed based on the platform called MRST (version 2016b) [Lie,2019].
+ We acknowledge the discussion with Dr. Maarten W. Saaltink (UPC- Barcelona Tech) during the early modeling stage.  We are  indebted to  Isabelle Faille (IFPEN) for organizing the discussion of this work. This code is a work from the Postdoc project (2022/12-2023/12) of IFP Energies nouvelles (Wang et al., 2023), and it is an extension of the PhD thesis of Wang (2022). The code is developed based on the platform called MRST (version 2016b) (Lie,2019).
 
 **References**
+
 Lie, K. A.  (2019). An introduction to reservoir simulation using MATLAB/GNU Octave: User guide for the MATLAB Reservoir Simulation Toolbox (MRST). Cambridge University Press. https://www.sintef.no/projectweb/mrst.
 
 Wang, Y. (2022). Numerical modeling of geological carbon sequestration: enhanced dissolution in randomly heterogeneous vedia. PhD thesis, UPC-Barcelona Tech. https://upcommons.upc.edu/handle/2117/376077.
