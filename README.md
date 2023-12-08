@@ -8,7 +8,7 @@ This repository contains all the files for library: MRST-HYD, which is a toolbox
 
 **Installation**
 
-MRST-HYD is handy, and no explicit operation is needed to install MRST-HYD. One only need to go into folder 'MRST-HYD/examples/', then go into one of the four subfolders each containing one example test, and choose the Matlab script inside this subfolder and run it.  
+MRST-HYD is handy, and no extra operation is needed to install MRST-HYD. (One can directly run the Matlab script stored in the folder 'MRST-HYD/examples/'.) 
 
 
 **Quick start (only for those who have zero knowledge of Matlab)**
