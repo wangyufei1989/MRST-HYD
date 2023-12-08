@@ -46,5 +46,7 @@ Véronique Lachet, Dept. of Thermodynamics and Molecular Simulation. IFP Energie
 
 **References**
 Lie, K. A.  (2019). An introduction to reservoir simulation using MATLAB/GNU Octave: User guide for the MATLAB Reservoir Simulation Toolbox (MRST). Cambridge University Press. https://www.sintef.no/projectweb/mrst.
+
 Wang, Y. (2022). Numerical modeling of geological carbon sequestration: enhanced dissolution in randomly heterogeneous vedia. PhD thesis, UPC-Barcelona Tech. https://upcommons.upc.edu/handle/2117/376077.
+
 Wang, Y.,  Flauraud, E., Michel, A., Lachet, V. and Meiller, C. (2023). Numerical Modeling Offshore Geological Carbon Storage (GCS) Undergoing Hydrate formation, submitted to Computational Geosciences.
