@@ -20,11 +20,14 @@ MRST-HYD is handy, and no explicit operation is needed to install MRST-HYD. One 
 
 **Platform**
 
-The code is developed based on the platform called MRST (version 2016b) that can be dowloaded through https://www.sintef.no/projectweb/mrst [Lie,2019]. We develop the reactive transport module considering hydrate formation/dissociation,  enclose it in the folder called 'partial-equilibrium-reactive-three-phase', and test it with the test files in the folder called 'benchmarks and examples', while the files in the rest folders are from  MRST.
+. 
+
+
 
 **Software requirement**
 
 Only Matlab is needed. The current module is developed based on Matlab 2019b, and it should be compatible for new versions of Matlab. 
+
 **Contributors**
 
 Yufei Wang, Dept. of Applied Mathematics. IFP Energies nouvelles, 1 et 4 Avenue du Bois-Préau, 92825 Rueil-Malmaison, France
@@ -39,9 +42,9 @@ Véronique Lachet, Dept. of Thermodynamics and Molecular Simulation. IFP Energie
  
 **Acknowledgement**
 
-This work is fundded by the postsoc project of IFP Energies Nouvelles (France). We acknowledge the discussion with Dr. Maarten W. Saaltink (UPC- Barcelona Tech) during the early modeling stage.
+ We acknowledge the discussion with Dr. Maarten W. Saaltink (UPC- Barcelona Tech) during the early modeling stage.  We are  indebted to  Isabelle Faille for organizing the discussion of this work. The code is developed based on the platform called MRST (version 2016b) [Lie,2019].
 
 **References**
-Lie, K. A.  (2019). An introduction to reservoir simulation using MATLAB/GNU Octave: User guide for the MATLAB Reservoir Simulation Toolbox (MRST). Cambridge University Press.
-Wang, Y. (2022). Numerical modeling of geological carbon sequestration: enhanced dissolution in randomly heterogeneous vedia. PhD thesis, UPC-Barcelona Tech. https://upcommons.upc.edu/handle/2117/376077
+Lie, K. A.  (2019). An introduction to reservoir simulation using MATLAB/GNU Octave: User guide for the MATLAB Reservoir Simulation Toolbox (MRST). Cambridge University Press. https://www.sintef.no/projectweb/mrst.
+Wang, Y. (2022). Numerical modeling of geological carbon sequestration: enhanced dissolution in randomly heterogeneous vedia. PhD thesis, UPC-Barcelona Tech. https://upcommons.upc.edu/handle/2117/376077.
 Wang, Y.,  Flauraud, E., Michel, A., Lachet, V. and Meiller, C. (2023). Numerical Modeling Offshore Geological Carbon Storage (GCS) Undergoing Hydrate formation, submitted to Computational Geosciences.
