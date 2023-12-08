@@ -2,12 +2,14 @@
 
 This repository contains the file for library: MRST-HYD, which is a toolbox for simulating offshore CO2 storage with hydrate formation.
 
-![two_dimension_app](https://github.com/wangyufei1989/MRST-HYD/assets/97456379/a1e1d7bb-699f-482d-8e5e-e61a502cde4d)
+
+![two_dimension_app](https://github.com/wangyufei1989/MRST-HYD/assets/97456379/17e76394-a813-421f-846b-ae150e6b0f7f)
+
 
 **Installation**
 
 MRST-HYD is handy, and no explicit operation is needed to install MRST-HYD. One only need to go into folder 'MRST-HYD/examples
-/' and choose one example file and run it. We offer four example files for the purpose of introduction.  Users can learn MRST-HYD through these four given example files. Details about each exapmple are described inside the script. 
+/' and choose the example file and run it. We offer four example case simulations for the purpose of introduction.  Users can learn MRST-HYD through these four given example case simulations. Details about each exapmple are described inside the script. 
 
 
 **Quick start**
