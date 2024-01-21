@@ -1783,6 +1783,14 @@ for ki= 1 : nw
         W(ki).rhoref=state.rhoref;
         Wrep=W(ki);
         Wrep.pressure=[max(state.pressure0(wc,1)),max(state.pressure0(wc,1))];
+        Wrep.rhomu.rhomu_flag=1;
+        Wrep.rhomu.rhor=[1000 100];
+% give [c_p_liquid, c_p_gas, c_t_liquid, c_t_gas]
+Wrep.rhomu.compress=[0.5e-9,1e-9,0,0];
+%give the reference pressure and temperature
+Wrep.rhomu.pr=[1e5 1e5];Wrep.rhomu.tr=[308.15 308.15];
+% give the viscosity
+Wrep.rhomu.mu=[1e-3,1.04e-5];
         [W(ki).rho,W(ki).mu]=rhomu_p_frac_kinetic_h(Wrep);
         Wrep.rho=W(ki).rho;
          Wrep.mu=W(ki).mu;
